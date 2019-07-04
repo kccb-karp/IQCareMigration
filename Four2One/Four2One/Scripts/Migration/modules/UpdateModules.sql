@@ -1,0 +1,1 @@
+﻿update mst_module set status = 2 where status = 1

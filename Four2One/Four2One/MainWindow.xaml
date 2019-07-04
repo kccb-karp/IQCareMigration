@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Four2One"
         xmlns:gif="http://wpfanimatedgif.codeplex.com"
         mc:Ignorable="d"
-        Title="Four2One" Height="700" Width="900" 
+        Title="Four2One KARP Vesrion 1" Height="700" Width="900" 
         WindowStartupLocation="CenterScreen" 
         Icon="Resources/421_transparent_icon.ico"
         x:Name="WinMain"
@@ -16,13 +16,14 @@
        >
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="312*"/>
         </Grid.ColumnDefinitions>
         <ScrollViewer 
             Grid.Column="0" 
             VerticalScrollBarVisibility="Auto"
-            x:Name="ScrParams"
+            x:Name="ScrParams" Grid.ColumnSpan="2"
             >
             <StackPanel  Margin="10 10 10 10"
                          >
@@ -297,9 +298,9 @@
             </StackPanel>
         </ScrollViewer>
         <GridSplitter Background="LightGray"
-                      Width="1"
+                      Width="1" Grid.Column="1"
                       />
-        <Grid Grid.Column="1">
+        <Grid Grid.Column="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="4*"/>
                 <ColumnDefinition Width="6*"/>
