@@ -187,598 +187,6 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\DBUpdate\1007\Data\03 PatientRegistrationData.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\04 SexualHistoryData.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\101 NutritionAssessmentQuestions.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\102 Adherence Barriers.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\103 CAGEAID.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\104 CRAFFT.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\105 Depression Screening.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\106 Encounter Types.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\107 Enhance Adherence Counselling.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\108 GBV.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\109 Neonatal History.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\110 Social Hoistory.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\111 Tanners Staging.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\112 Case Summary.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\113 Followup Education.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\114 ICF.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\SPs\getPatientVitals.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\SPs\PersonEmergencyContactInsert.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\SPs\PersonEmergencyContactUpdate.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\01 Adherence Barriers.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\02 Depression Screening.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\03 Enhance Adherence Counselling.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\04 New Neonatal History.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\04 Social History.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\05 Tanners Staging.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\06 Neonatal History.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\07 TuberclosisTreatment.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\PatientOI.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\PersonConsent.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\PersonEducationTable.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\PersonEmergencyContact.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\PersonOccupation.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\TableChanges.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\SexualHistoryTables.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\WHOStageConditions.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Views\Api_PatientsView.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Views\dbo.API_DrugPrescription.View.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Views\dbo.gcPatientView.View.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Views\dbo.PersonExtView.View.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Views\dbo.vw_ILMessengerLog.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Views\dbo.vw_ILStatistics.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Views\PatientRegistrationViews.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Views\vw_ILMessageStats.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Views\vw_ILMessageViewer.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\01 Cleanup Lookups.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\02 Cleanup CCC Number.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Data\GBV Assessment Lookups.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\ApiInbox_Changes.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\dbo.AfyaMobileInbox.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Tables\PatientScreening_Changes.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\SPs\pr_Pharmacy_FindDrugByName.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\SPs\sp_getPharmacyDrugList.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Triggers\Insert_Results_LabTracker.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\1007\Indexes\01 LookupTables.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_Admin_GetModuleName_Futures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_Admin_SaveNewUser_Constella.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_Admin_selectFeature.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_Admin_UpdateUser_Constella.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_Clinical_GetCustomFormFieldLabel.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_Clinical_GetInitialFollowupVisitInfo.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_Clinical_GetPatientHistory.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_Clinical_GetPatientRegistrationCustom.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_Clinical_SavePatientResults.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_Clinical_ValidateCustomForm_Futures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\Pr_FormBuilder_FetchUpdateFormDetail_Futures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_FormBuilder_GetPublishedModuleList.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_FormBuilder_SaveLnkFormFutures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\Pr_FormBuilder_SaveMstFeature_Futures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\Pr_FormBuilder_SaveMstSection_Futures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\Pr_ManageForm_GetFormDetail_Futures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\pr_Pharmacy_GetPediatricDetails_Constella.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\SPs\Pr_PMTCT_GetCustomFields_Futures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Tables\lnk_GroupFeatures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Tables\mst_Code.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Tables\mst_Control.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Tables\mst_Decode.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Tables\mst_Feature.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Tables\mst_VisitType.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Views\dtl_PatientLabResults.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Views\lnk_LabValue.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Views\lnk_Parameterresult.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Views\lnk_TestParameter.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Views\mst_LabTest.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Views\ord_PatientLabOrder.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateDynamicForms\Views\VW_ModuleIdentifiers.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_Clinical_DeletePatientForms_Constella.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_Clinical_SaveUpdate_IPTDetails.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_CreateLocalCache_AllMasters_constella.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_GetPharmacypriorPrescription_Web.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_Pharmacy_GetPharmacyPrescriptions.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_BINCard_Futures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_GetDashBoardDetails.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_GetDrugBatchDetails.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_GetPharmacyOrderDetail_Web.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_GetPharmacyVitals.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_GetSelectedDrugDetails.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_GetStockSummary_Futures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_SaveLockpatientForDispensing.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_SavePharmacyDispenseOrderDetail_Web.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_SavePharmacyDispenseOrder_Web.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_SavePharmacyMarkOrderFullyDispensed_Web.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_SavePharmacyPartialDispense_Web.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\pr_SCM_SaveUpdateHivTreatementPharmacyField_Futures.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\sp_getPatientPharmacyPrescription.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\sp_SaveUpdatePharmacyPrescription_GreenCard.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\01 ord_Visit.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\02 mst_ItemMaster.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\03 ord_PatientPharmacyOrder.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\04 dtl_PatientPharmacyOrder.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\05 mst_User.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\06 mst_Regimen.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\Views\VW_Drug.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\Views\VW_PatientPharmacy.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\ActivateSCM\Views\VW_UserDesignationTransaction.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemData\Counties.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemData\Facilities.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\Pr_Clinical_GetPatient_EnrolledServiceLines.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\pr_Clinical_PatientDetails_Constella.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\AppAdmin.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\TestingObjects\Views.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\Version\Version.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Functions\Functions.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\01 Encryption.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\02 SPs.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\pr_Admin_SelectFacility_Constella.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\pr_CreateLocalCache_AllMasters_constella.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\Pr_Security_UserLogin_Constella.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\Labs\LabTables.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\NewTables\NewTables.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemData\Identification.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemData\Lookup.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\dtl_PatientAppointment.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\dtl_patientPharmacyOrder.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_BusinessRule.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_ClinicalService.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Control.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Drug.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Facility.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Feature.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Module.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Patient.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_regimen.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Section.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_VisitType.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\ord_PatientPharmacyOrder.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\ord_Visit.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Views\Views.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\DBUpdate\SystemObjects\Views\PreView\01 PreView GetLookupPreViewCreation.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\Adherence.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\AdverseEvents.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\Appointments.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\Disclosure.sql" />
-    <Content Include="Scripts\Migration\DrugHistory.sql" />
-    <Content Include="Scripts\Migration\EncounterMaster.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\FamilyHistory.sql" />
-    <Content Include="Scripts\Migration\GeneralExamination.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\HistoryANDBaseline.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\HIVTestDate.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\Lab\CD4CountResults.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\Lab\HbResults.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\Lab\LabObjects.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\Lab\LabPatientEncounter.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\Lab\MigrateLabOrders.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\Lab\VLResults.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\modules\UpdateModules.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\NeoNatalHistory.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\NewRegistration.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\NutritionalAssessment.sql" />
-    <Content Include="Scripts\Migration\PastMedicalHistory.sql" />
-    <Content Include="Scripts\Migration\PatientClinicIDs.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\PatientTreatmentSupporter.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\Pharmacy.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\PHDPServices.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\PregnancyStatus.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\PresentingComplaints.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\pr_hamisha_regenrollments.sql" />
-    <Content Include="Scripts\Migration\Registration.sql" />
-    <Content Include="Scripts\Migration\SexualHistory.sql" />
-    <Content Include="Scripts\Migration\SMSConsent.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\SupportGroup.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\TBICF.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\TBIPT.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\TransferIn.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\Vitals.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Migration\WHOStaging.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\CE Visits.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\DoB.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\EnrollmentDate.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\EntryPoints.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\Gender.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\HeadCircumference.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\MaritalStatus.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\MobileNumbers.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\NationalId.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\OIs.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\PatientNames.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\PhysicalAddress.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\PregnancyStatus.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\ScheduledVisits.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\Temperature.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\Village.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\Testing\WHOStaging.sql">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <PublishFile Include="Microsoft.SqlServer.SqlClrProvider">
       <Visible>False</Visible>
       <Group>
@@ -797,9 +205,559 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Scripts\DBUpdate\1007\Functions\" />
-    <Folder Include="Scripts\DBUpdate\Clean\" />
+    <Content Include="Scripts\DBUpdate\1007\0001_ApiInbox_Changes.sql" />
+    <Content Include="Scripts\DBUpdate\1007\0002_AfyaMobileInbox.sql" />
+    <Content Include="Scripts\DBUpdate\1007\0003_PatientScreening_Changes.sql" />
+    <Content Include="Scripts\DBUpdate\1007\0004_PatientTreatmentSupporter.sql" />
+    <Content Include="Scripts\DBUpdate\1007\0005_Person.sql" />
+    <Content Include="Scripts\DBUpdate\1007\1001_Api_PatientsView.sql" />
+    <Content Include="Scripts\DBUpdate\1007\1002_API_DrugPrescription.View.sql" />
+    <Content Include="Scripts\DBUpdate\1007\1003_gcPatientView.View.sql" />
+    <Content Include="Scripts\DBUpdate\1007\1004_PersonExtView.View.sql" />
+    <Content Include="Scripts\DBUpdate\1007\1005_vw_ILMessengerLog.sql" />
+    <Content Include="Scripts\DBUpdate\1007\1006_vw_ILStatistics.sql" />
+    <Content Include="Scripts\DBUpdate\1007\1007_SubCountyView.sql" />
+    <Content Include="Scripts\DBUpdate\1007\1008_vw_ILMessageStats.sql" />
+    <Content Include="Scripts\DBUpdate\1007\1009_vw_ILMessageViewer.sql" />
+    <Content Include="Scripts\DBUpdate\1007\1010_WardView.sql" />
+    <Content Include="Scripts\DBUpdate\1007\2001_Pr_Clinical_GetPatientSearchresults.StoredProcedure.sql" />
+    <Content Include="Scripts\DBUpdate\1007\2002_pr_Pharmacy_FindDrugByName.sql" />
+    <Content Include="Scripts\DBUpdate\1007\2003_sp_getPharmacyDrugList.sql" />
+    <Content Include="Scripts\DBUpdate\1007\3001_Insert_Results_LabTracker.sql" />
+    <Content Include="Scripts\DBUpdate\1007\4001_CleanupLookups.sql" />
+    <Content Include="Scripts\DBUpdate\1007\5001_LookupTables.sql" />
+    <Content Include="Scripts\DBUpdate\1007\6001_Data.sql" />
+    <Content Include="Scripts\DBUpdate\1007\6002_PersonEducationTable.sql" />
+    <Content Include="Scripts\DBUpdate\1007\6003_PersonOccupation.sql" />
+    <Content Include="Scripts\DBUpdate\1007\6004_TableChanges.sql" />
+    <Content Include="Scripts\DBUpdate\1007\7001_Views.sql" />
+    <Content Include="Scripts\DBUpdate\1007\7002_Data.sql" />
+    <Content Include="Scripts\DBUpdate\1007\7003_PatientOI.sql" />
+    <Content Include="Scripts\DBUpdate\1007\7004_WHOStageConditions.sql" />
+    <Content Include="Scripts\DBUpdate\1007\7005_Data.sql" />
+    <Content Include="Scripts\DBUpdate\1007\7006_Tables.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\001AdherenceBarriers.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\002DepressionScreening.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\003EnhanceAdherenceCounselling.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\004NewNeonatalHistory.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\005SocialHistory.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\006TannersStaging.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\007NeonatalHistory.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\008TuberclosisTreatment.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\009RenameMilestone.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\010gcPatientView.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\011NutritionAssessmentQuestions.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\012AdherenceBarriers.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\013CAGEAID.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\015Depression Screening.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\016Encounter Types.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\017Enhance Adherence Counselling.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\018GBV.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\019Neonatal History.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\020SocialHistory.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\021Tanners Staging.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\022CaseSummary.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\023Followup Education.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\024CRAFFT.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\025ADDmst_ItemMasterColumns.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\026ICF.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\027laborder.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\028NotDocumented.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\029PillCount.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\030Status.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\031Data.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\032Data.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\033TableChanges.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\034Updatemst_Feature.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\044CustomFormFieldLabel.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\045_VW_ModuleIdentifiers.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\046GetModuleFieldNames.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\047GetPediatricDetails.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\051sp_GetPatientEncounter.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\052sp_getPatientWorkPlan.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\053sp_SavePatientEncounterPatientManagement.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\062LookupTableFlag.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\063sp_getPatientEncounterDiagnosis.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\064sp_savePatientEncounterDiagnosis.sql" />
+    <Content Include="Scripts\DBUpdate\1008SI\065Pr_Clinical_GetPatientSearchresults.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0001_AlterCountyAddIdentity.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0002_HEIEncounter.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0003_HEIFeeding.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0004_HEIProfile.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0005_Identifiers.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0006_IPT.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0007_mst_Facility.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0008_PatientLinkage.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0009_PatientMilestone.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0010_pmtct.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0011_Referral.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0012_Vaccination.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0101_gcPatientView.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0102_InvalidPatientIdentifiersView.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0201_getPatientVitals.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0202_pr_Admin_GetFacilityList_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0203_pr_Admin_InsertFacility_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0204_pr_Admin_UpdateFacility_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0205_sp_getPatientEncounter.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0206_sp_savePatientEncounterChronicIllness.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0301_SET_MODULE.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0302_FacilityListData.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0303_IdentifiersData.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0304_IQCareVersion.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0305_Lookups.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0401_HEIProfile.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0402_HEIEncounter.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0403_HEIFeeding.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0404_PatientMilestone.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0405_Vaccination.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0406_Lookups.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0501_TABLE.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0502_EducationData.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0503_Data.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0601_Lookup.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0701_ICDCodes.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0702_LookupTableFlag.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0703_sp_getPatientEncounterDiagnosis.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0704_sp_savePatientEncounterDiagnosis.sql" />
+    <Content Include="Scripts\DBUpdate\1008\0801_PostanatalExamsLookups.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1001_sp_GetPatientEncounter.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1002_sp_getPatientWorkPlan.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1004_sp_SavePatientEncounterPatientManagement.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1101_Identifiers.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1102_ServiceAreaIdentifiers.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1103_HtsEncounter.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1104_Api_PatientsView.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1105_PersonDetailsView.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1106_PersonKinContactsView.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1107_PersonListView.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1108_pr_Security_UserLogin_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1109_SP_Bluecard_ToGreenCard.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1110_pmtctLookups.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1201_Data.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1202_ARTTrackEncounter.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1301_CareEnded.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1302_CareEndedEncounter.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1401_Insert_PNC_LookUp_Data.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1402_SO_CreateVisitDetails_Table.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1403_SO_Vaccination.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1405_Create_Table_PatientCounselling.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1406_SO_HEIProfile.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1407_CreateTable_PatientDelivery.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1408_SO_HEIFeeding.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1409_CreateTable_PatientDrugAdministration.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1410_SO_HEIEncounter.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1411_CreateTable_PatientLabSample.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1412_DO_Insert_ApgrarScoreDetails_Into_LookUpTables.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1413_SO_Add_Hei_encounter.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1414_CreateTable_PatientOutcome.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1415_SO_Insert_Drug_Administration_LookUpItems.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1416_CreateTable_PatientPatnerTesting.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1417_SO_Lookups.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1418_CreateTable_PatientPreventiveServices.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1419_SO_PatientMilestone.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1420_CreateTable_PatientProfile.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1421_CreateTable_PmtctBaby.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1422_AlterTable_Pregnancy_AddCol.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1423_DO_Create_Table_PatientMilestone.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1424_SO_Insert_MaternityEncounter.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1425_DO_Rename_Column_MilestoneComments.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1426_SO_Insert_Baby_Birth_Outcome_Lookup.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1427_DO_Rename_Column_MilestoneDate.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1428_SO_Insert_Drug_Administration_Lookup.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1429_DO_Drop_Table_HeiMilestone.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1430_SO_CreateTableBaselineANC.sql" />
+    <Content Include="Scripts\DBUpdate\1008\1431_SO_AlterTable_Add_Column_AgeAtMenarche.sql" />
+    <Content Include="Scripts\DBUpdate\1009\01_DO_Rename_Table_PMTCTBaby.sql" />
+    <Content Include="Scripts\DBUpdate\1009\01_SO_IQCare_Version.sql" />
+    <Content Include="Scripts\DBUpdate\1009\02_DO_CreateTable_DeliveredBabyApgarScore.sql" />
+    <Content Include="Scripts\DBUpdate\1009\03_DO_AlterTable_DeliveredBabyBirthInfo.sql" />
+    <Content Include="Scripts\DBUpdate\1009\04_DO_AlterTable_DeliveredBabyBirthInfo.sql" />
+    <Content Include="Scripts\DBUpdate\1009\06_BO_AlterTable_PatientProfile.sql" />
+    <Content Include="Scripts\DBUpdate\1009\06_DO_CreateView_DeliveredBabyBirthInfoView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\07_BO_AlterTable_PatientProfile.sql" />
+    <Content Include="Scripts\DBUpdate\1009\07_DO_AlterTable_DeliveredBabyApgarScore.sql" />
+    <Content Include="Scripts\DBUpdate\1009\08_DO_AlterTable_PatientDelivery.sql" />
+    <Content Include="Scripts\DBUpdate\1009\09_DO_AlterTable_PatientDelivery.sql" />
+    <Content Include="Scripts\DBUpdate\1009\10_DO_AlterTable_PatientDelivery.sql" />
+    <Content Include="Scripts\DBUpdate\1009\11_DO_AlterTable_PatientDelivery.sql" />
+    <Content Include="Scripts\DBUpdate\1009\12_DO_AlterTable_PatientDelivery.sql" />
+    <Content Include="Scripts\DBUpdate\1009\13_DO_AlterTable_PatientDelivery.sql" />
+    <Content Include="Scripts\DBUpdate\1009\14_DO_AlterTable_PatientDelivery.sql" />
+    <Content Include="Scripts\DBUpdate\1009\15_DO_CreateView_PatientDeliveryInformationView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\16_DO_AlterTablePatientOutCome.sql" />
+    <Content Include="Scripts\DBUpdate\1009\17_DO_AlterTable_PatientOutcome.sql" />
+    <Content Include="Scripts\DBUpdate\1009\18_DO_AlterTable_DeliveredBabyApgarScore.sql" />
+    <Content Include="Scripts\DBUpdate\1009\19_DO_AlterTableBabyBirthInformation.sql" />
+    <Content Include="Scripts\DBUpdate\1009\20_DO_AlterTable_DeliveredBabyBirthInfo.sql" />
+    <Content Include="Scripts\DBUpdate\1009\21_DO_AlterTable_DeliveredBabyBirthInfo.sql" />
+    <Content Include="Scripts\DBUpdate\1009\22_DO_AlterTable_ApgarScore.sql" />
+    <Content Include="Scripts\DBUpdate\1009\23_DO_AlterView_DeliveredBabyInfoView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\24_DO_AlterTable_DeliveredBabyBirthInfomation.sql" />
+    <Content Include="Scripts\DBUpdate\1009\25_DO_AlterTable_DeliveredBabyBirthInfo.sql" />
+    <Content Include="Scripts\DBUpdate\1009\26_DO_CreateView_Delivered_BabyApgar.sql" />
+    <Content Include="Scripts\DBUpdate\1009\27_DO_AlterTable_PatientProfile.sql" />
+    <Content Include="Scripts\DBUpdate\1009\28_DO_AlterTable_PatientAppointment.sql" />
+    <Content Include="Scripts\DBUpdate\1009\29_DO_AlterTable_PatientOutcome.sql" />
+    <Content Include="Scripts\DBUpdate\1009\29_SO_AlterTable_PatientOutcome.sql" />
+    <Content Include="Scripts\DBUpdate\1009\30_BO_PosNatalExaminationItemLookUp.sql" />
+    <Content Include="Scripts\DBUpdate\1009\30_SO_MaternityEncounterView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\31_AlterTable_PatientOutcome.sql" />
+    <Content Include="Scripts\DBUpdate\1009\31_BO_PatientFamilyPlanningLookUpViewItems.sql" />
+    <Content Include="Scripts\DBUpdate\1009\31_DO_CreateView_PatientDischargeInfoView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\32_BO_PatientFamilyPlanningMethodView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\32_DO_Insert_MaternalDrugAdmin_LookUp_Items.sql" />
+    <Content Include="Scripts\DBUpdate\1009\33_BO_AlterPtientInfo.sql" />
+    <Content Include="Scripts\DBUpdate\1009\33_DO_AlterTable_PatientDrugAdministration.sql" />
+    <Content Include="Scripts\DBUpdate\1009\34_DO_CreateView_PatientDrugAdministration.sql" />
+    <Content Include="Scripts\DBUpdate\1009\35_AlterTable_PatientReferral.sql" />
+    <Content Include="Scripts\DBUpdate\1009\36_DO_AlterTable_PatientDelivery.sql" />
+    <Content Include="Scripts\DBUpdate\1009\37_BO_AddPhsicalExaminationView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\37_DO_Insert_PNC_LookUpItems.sql" />
+    <Content Include="Scripts\DBUpdate\1009\38_BO_PatientScreeningView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\38_DO_CreateView_PatientChronicIllness.sql" />
+    <Content Include="Scripts\DBUpdate\1009\39_SO_vw_PatientEncounters.sql" />
+    <Content Include="Scripts\DBUpdate\1009\40_DO_CreateSproc_GetPatientRelationships.sql" />
+    <Content Include="Scripts\DBUpdate\1009\41_pr_iqcare_version_2.sql" />
+    <Content Include="Scripts\DBUpdate\1009\42_DO_AlterTable_Pregancy_AlterColumns.sql" />
+    <Content Include="Scripts\DBUpdate\1009\43_DO_AlterTable_PreventiveServices.sql" />
+    <Content Include="Scripts\DBUpdate\1009\44_DO_CreateView_ANC_Register.sql" />
+    <Content Include="Scripts\DBUpdate\1009\45_DO_CreateView_HeiRegister.sql" />
+    <Content Include="Scripts\DBUpdate\1009\46_DO_CreateView_MaternityRegister.sql" />
+    <Content Include="Scripts\DBUpdate\1009\47_DO_CreateView_PNC_Register.sql" />
+    <Content Include="Scripts\DBUpdate\1009\48_DO_AlterView_HTS_LAB_Register.sql" />
+    <Content Include="Scripts\DBUpdate\1009\49_DO_AlterView_vw_FamilyTestingRegister.sql" />
+    <Content Include="Scripts\DBUpdate\1009\50_DO_AlterView_vw_HIVTesting.sql" />
+    <Content Include="Scripts\DBUpdate\1009\51_DO_AlterView_vw_PartnerNotificationRegister.sql" />
+    <Content Include="Scripts\DBUpdate\1009\52_SO_CreateView_PatientCounsellingView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\53_SO_CreateView_PatientExaminationView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\54_SO_CreateView_pmtctPatientScreeningView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\55_SO_CreateVIew_PatientPreventiveServiceView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\56_SO_CreateView_VisitDetailsView.sql" />
+    <Content Include="Scripts\DBUpdate\1009\57_SO_AlterTablePatientMIlestone.sql" />
+    <Content Include="Scripts\DBUpdate\1009\58_Add_Lookups_ReviewOfSystems.sql" />
+    <Content Include="Scripts\DBUpdate\2000\02_DO_AlterView_PatientDeliveryInfo.sql" />
+    <Content Include="Scripts\DBUpdate\2000\03 pr_Security_UserLogin_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\2000\03_DO_CreateSproc_Get_WeightFor_Age_Zscore.sql" />
+    <Content Include="Scripts\DBUpdate\2000\04_DO_CreateSproc_GetWeightForHeight_Zscore_Sproc.sql" />
+    <Content Include="Scripts\DBUpdate\2000\05_DO_CreateSproc_GetBmiZscore_Constants.sql" />
+    <Content Include="Scripts\DBUpdate\2000\06_DO_CreateSproc_GetHeightForAge_Zscore.sql" />
+    <Content Include="Scripts\DBUpdate\2000\07_DO_AlterTable_Pregnancy_AddColumn_AgeAtMenarch.sql" />
+    <Content Include="Scripts\DBUpdate\2000\07_SO_SetPrefixTypeInIdentifiers.sql" />
+    <Content Include="Scripts\DBUpdate\2000\08_DO_AlterTable_PatientDelivery_DropFK_ProfileId.sql" />
+    <Content Include="Scripts\DBUpdate\2000\08_PatientConsent.sql" />
+    <Content Include="Scripts\DBUpdate\2000\09_DO_AlterTable_PatientDelivery_DropColumn_ProfileId.sql" />
+    <Content Include="Scripts\DBUpdate\2000\09_PersonKinContactsView.sql" />
+    <Content Include="Scripts\DBUpdate\2000\10_DO_AlterTable_PatientDelivery_AddColumn_PregnancyId.sql" />
+    <Content Include="Scripts\DBUpdate\2000\11_DO_AlterView_PatientDeliveryInfo.sql" />
+    <Content Include="Scripts\DBUpdate\2000\12_DO_Insert_Clinical_Service_Area.sql" />
+    <Content Include="Scripts\DBUpdate\2000\12_SO_CreateView_PmtctRefferealView.sql" />
+    <Content Include="Scripts\DBUpdate\2000\13_SO_CreateView_lnk_FacilityModule.sql" />
+    <Content Include="Scripts\DBUpdate\2000\15_SO_Add_Lookups_Digestive.sql" />
+    <Content Include="Scripts\DBUpdate\2000\16_SO_Lookups_Muscular.sql" />
+    <Content Include="Scripts\DBUpdate\2000\17_SO_Add_Lookups_Skeletal.sql" />
+    <Content Include="Scripts\DBUpdate\2000\18_SO_Add_Lookups_Endoctrine.sql" />
+    <Content Include="Scripts\DBUpdate\2000\19_Add_lookups_Immune.sql" />
+    <Content Include="Scripts\DBUpdate\2000\20_Add_Lookups_Lymphatic.sql" />
+    <Content Include="Scripts\DBUpdate\2000\21_Add_Lookups_Dental.sql" />
+    <Content Include="Scripts\DBUpdate\2000\22_Alter_County_Add_Identity.sql" />
+    <Content Include="Scripts\DBUpdate\2000\23_Nairobi_Missing_Subcounties_Wards.sql" />
+    <Content Include="Scripts\DBUpdate\2000\24_DO_AlterTable_PatientIcf_AddColumn_ContactWithTb.sql" />
+    <Content Include="Scripts\DBUpdate\2000\25_SPS_mstPatient_Update.sql" />
+    <Content Include="Scripts\DBUpdate\2001\0002_Add_D4T_Regimens.sql" />
+    <Content Include="Scripts\DBUpdate\2001\0004_CareEnd.sql" />
+    <Content Include="Scripts\DBUpdate\2001\0005_Pr_Admin_GetBackupSetup_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\2001\0006_pr_SystemAdmin_Backup_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\2001\0007_pr_SCM_GetDrugBatchDetails.sql" />
+    <Content Include="Scripts\DBUpdate\2001\001_ApiViews.sql" />
+    <Content Include="Scripts\DBUpdate\2001\002_DO_Insert_Clinical_Service_Area.sql" />
+    <Content Include="Scripts\DBUpdate\2001\003_SO_CreateView_lnk_FacilityModule.sql" />
+    <Content Include="Scripts\DBUpdate\2001\004_SO_Add_Lookups_ViralLoadSample.sql" />
+    <Content Include="Scripts\DBUpdate\2001\005_Person_Update.sql" />
+    <Content Include="Scripts\DBUpdate\2001\006_SO_AlterTable_PatientMasterVisit_AddCol_FacilityId.sql" />
+    <Content Include="Scripts\DBUpdate\2001\008_Create_PatientPncExercises.sql" />
+    <Content Include="Scripts\DBUpdate\2001\009_SO_AddNewARVDrugs.sql" />
+    <Content Include="Scripts\DBUpdate\2001\010_HtsEncounter_Add_HivCounsellingDone.sql" />
+    <Content Include="Scripts\DBUpdate\2001\011_HtsEncounterResult_Add_EncounterResultRemarks.sql" />
+    <Content Include="Scripts\DBUpdate\2001\012_SO_Create_SP_GetPharmcyRegimens.sql" />
+    <Content Include="Scripts\DBUpdate\2001\014_DO_Insert_Into_LabTestMaster_New_LabTests.sql" />
+    <Content Include="Scripts\DBUpdate\2001\015_Person_Update_DateOfBirth.sql" />
+    <Content Include="Scripts\DBUpdate\2001\016_DO_Insert_Into_LabTestParameters_New_Params.sql" />
+    <Content Include="Scripts\DBUpdate\2001\017_Remove_S_P_From_PNSRelationship.sql" />
+    <Content Include="Scripts\DBUpdate\2001\018_DO_InsertInto_LabTestParameterResultOption.sql" />
+    <Content Include="Scripts\DBUpdate\2001\019_Pregnancy_Alter_Gravidae_Parity.sql" />
+    <Content Include="Scripts\DBUpdate\2001\020_DO_Update_PregnancyLabTest.sql" />
+    <Content Include="Scripts\DBUpdate\2001\021_Person_Update_Alter.sql" />
+    <Content Include="Scripts\DBUpdate\2001\022_Pharmacy_History.sql" />
+    <Content Include="Scripts\DBUpdate\2001\023_LO_HtsPnsReferral.sql" />
+    <Content Include="Scripts\DBUpdate\2001\024_HIVPositiveListView.sql" />
+    <Content Include="Scripts\DBUpdate\2001\026_UpdatePaediatricRegimen.sql" />
+    <Content Include="Scripts\DBUpdate\2001\028_IPTOutcomeDate.sql" />
+    <Content Include="Scripts\DBUpdate\2001\029_LO_HEI_Register.sql" />
+    <Content Include="Scripts\DBUpdate\2001\030_IndicatorTables.sql" />
+    <Content Include="Scripts\DBUpdate\2001\031_IndicatorData.sql" />
+    <Content Include="Scripts\DBUpdate\2001\032_Table Changes.sql" />
+    <Content Include="Scripts\DBUpdate\2001\033_InteropPlacerType.sql" />
+    <Content Include="Scripts\DBUpdate\2001\999_SO_IQCare_Version.sql" />
+    <Content Include="Scripts\DBUpdate\2001\gcPatientView.sql" />
+    <Content Include="Scripts\DBUpdate\2001\mst_Employee.sql" />
+    <Content Include="Scripts\DBUpdate\2001\PatientTreatmentTrackerView.sql" />
+    <Content Include="Scripts\DBUpdate\2001\pr_Admin_SelectFacility_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\2001\Pr_Security_UserLogin_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\2001\sp_SaveUpdatePharmacyPrescription_GreenCard.sql" />
+    <Content Include="Scripts\DBUpdate\2001\sp_SaveUpdatePharmacy_GreenCard.sql" />
+    <Content Include="Scripts\DBUpdate\2001\vw_UserList.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_Admin_GetModuleName_Futures.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_Admin_SaveNewUser_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_Admin_selectFeature.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_Admin_UpdateUser_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_Clinical_GetCustomFormFieldLabel.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_Clinical_GetInitialFollowupVisitInfo.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_Clinical_GetPatientHistory.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_Clinical_GetPatientRegistrationCustom.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_Clinical_SavePatientResults.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_Clinical_ValidateCustomForm_Futures.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\Pr_FormBuilder_FetchUpdateFormDetail_Futures.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_FormBuilder_GetPublishedModuleList.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_FormBuilder_SaveLnkFormFutures.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\Pr_FormBuilder_SaveMstFeature_Futures.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\Pr_FormBuilder_SaveMstSection_Futures.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\Pr_ManageForm_GetFormDetail_Futures.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\pr_Pharmacy_GetPediatricDetails_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\2002\SPs\Pr_PMTCT_GetCustomFields_Futures.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Tables\lnk_GroupFeatures.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Tables\mst_Code.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Tables\mst_Control.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Tables\mst_Decode.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Tables\mst_Feature.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Tables\mst_VisitType.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Views\dtl_PatientLabResults.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Views\lnk_LabValue.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Views\lnk_Parameterresult.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Views\lnk_TestParameter.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Views\mst_LabTest.sql" />
+    <Content Include="Scripts\DBUpdate\2002\Views\ord_PatientLabOrder.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\001.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\002.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\003.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\004.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\005.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\006.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\007.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\008.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\009.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\010.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\011.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\012.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\013.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\014.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\015.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\016.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\017.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\018.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\019.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\020.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\021.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\SPs\022.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\01 ord_Visit.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\02 mst_ItemMaster.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\03 ord_PatientPharmacyOrder.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\04 dtl_PatientPharmacyOrder.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\05 mst_User.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\06 mst_Regimen.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\07 Data.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\08 Mst_Drug.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Tables\09 mst_Batch.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Views\VW_Drug.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Views\VW_PatientPharmacy.sql" />
+    <Content Include="Scripts\DBUpdate\ActivateSCM\Views\VW_UserDesignationTransaction.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\001_PharmacyModule.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\002_pocprescription-encounter.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\003_mst_Feature.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\004_lnk_GroupFeatures.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\005_DrugFrequency.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\006_DrugDestination.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\007_DrugSource.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\008_DrugStore.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\009_DoseFormGroup.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\010_DrugAdjustmentReason.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\011_ClinicalDrug.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\012_DrugPackaging.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\013_DrugBatch.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\014_DrugReceived.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\015_DrugIssued.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\016_DrugAdjusted.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\017_PatientDrugPrescription.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\018_PatientDrugDispense.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\999_DisableOldPharmacyModules.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\DeleteDrugAdjustment.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\DeleteDrugIssue.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\DeleteDrugReceipt.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetAdjustmentReasons.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetDrugBatchesInMainStore.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetDrugGenerics.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetDrugPackaging.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetDrugsAvailableInDispensingStore.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetPatientPharmacyPrescription_CU.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetPharmacyPrescriptions_CU.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetPrescription.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetPrescriptionFields.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetPrescriptionForm.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetReceipt.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetRecentAdjustments.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetRecentIssues.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\GetRecentReceipts.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\SavePrescribedDrugs.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\SaveTreatmentTrack.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\sp_CU_GetBatchQuantity.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\sp_CU_GetDrugBatchesWithStocks.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\sp_CU_GetDrugDestinations.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\sp_CU_GetDrugFrequencies.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\sp_CU_GetDrugGenerics.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\sp_CU_GetDrugSources.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\sp_CU_GetPharmacyQueue.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\sp_CU_SaveDispense.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\sp_DeletePrescribedDrugs_CU.sql" />
+    <Content Include="Scripts\DBUpdate\PharmacyModule\sp_SavePrescription_CU.sql" />
+    <Content Include="Scripts\DBUpdate\SystemData\Counties.sql" />
+    <Content Include="Scripts\DBUpdate\SystemData\Facilities.sql" />
+    <Content Include="Scripts\DBUpdate\SystemData\Identification.sql" />
+    <Content Include="Scripts\DBUpdate\SystemData\Lookup.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Functions\Functions.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\01 Encryption.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\02 SPs.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\pr_Admin_SelectFacility_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\Pr_Clinical_GetPatient_EnrolledServiceLines.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\pr_Clinical_PatientDetails_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\pr_CreateLocalCache_AllMasters_constella.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\SPs\Pr_Security_UserLogin_Constella.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\Labs\LabTables.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\NewTables\NewTables.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\AppAdmin.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\dtl_PatientAppointment.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\dtl_patientPharmacyOrder.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_BusinessRule.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_ClinicalService.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Control.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Drug.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Facility.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Feature.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_ItemMaster.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Module.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Patient.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_regimen.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_Section.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\mst_VisitType.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\ord_PatientPharmacyOrder.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Tables\TableEdits\ord_Visit.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Views\PreView\001.sql" />
+    <Content Include="Scripts\DBUpdate\SystemObjects\Views\Views.sql" />
+    <Content Include="Scripts\DBUpdate\TestingObjects\CreateMigrationUser.sql" />
+    <Content Include="Scripts\DBUpdate\TestingObjects\RegimenMappingForMigration.sql" />
+    <Content Include="Scripts\DBUpdate\TestingObjects\Views.sql" />
+    <Content Include="Scripts\DBUpdate\Version\Version.sql" />
+    <Content Include="Scripts\Migration\Adherence.sql" />
+    <Content Include="Scripts\Migration\AdverseEvents.sql" />
+    <Content Include="Scripts\Migration\Appointments.sql" />
+    <Content Include="Scripts\Migration\ARTReadinessAssessment.sql" />
+    <Content Include="Scripts\Migration\Disclosure.sql" />
+    <Content Include="Scripts\Migration\DrugHistory.sql" />
+    <Content Include="Scripts\Migration\EncounterMaster.sql" />
+    <Content Include="Scripts\Migration\FamilyHistory.sql" />
+    <Content Include="Scripts\Migration\FamilyInfo.sql" />
+    <Content Include="Scripts\Migration\GeneralExamination.sql" />
+    <Content Include="Scripts\Migration\HEI.sql" />
+    <Content Include="Scripts\Migration\HistoryANDBaseline.sql" />
+    <Content Include="Scripts\Migration\HIVTestDate.sql" />
+    <Content Include="Scripts\Migration\Lab\CD4CountResults.sql" />
+    <Content Include="Scripts\Migration\Lab\HbResults.sql" />
+    <Content Include="Scripts\Migration\Lab\LabObjects.sql" />
+    <Content Include="Scripts\Migration\Lab\LabPatientEncounter.sql" />
+    <Content Include="Scripts\Migration\Lab\MigrateLabOrders.sql" />
+    <Content Include="Scripts\Migration\Lab\VLResults.sql" />
+    <Content Include="Scripts\Migration\modules\updatemodules.sql" />
+    <Content Include="Scripts\Migration\NeoNatalHistory.sql" />
+    <Content Include="Scripts\Migration\NewRegistration.sql" />
+    <Content Include="Scripts\Migration\NutritionalAssessment.sql" />
+    <Content Include="Scripts\Migration\PastMedicalHistory.sql" />
+    <Content Include="Scripts\Migration\PatientCareEnding.sql" />
+    <Content Include="Scripts\Migration\PatientClinicIDs.sql" />
+    <Content Include="Scripts\Migration\PatientTreatmentSupporter.sql" />
+    <Content Include="Scripts\Migration\Pharmacy.sql" />
+    <Content Include="Scripts\Migration\PHDPServices.sql" />
+    <Content Include="Scripts\Migration\PregnancyStatus.sql" />
+    <Content Include="Scripts\Migration\PresentingComplaints.sql" />
+    <Content Include="Scripts\Migration\pr_hamisha_regenrollments.sql" />
+    <Content Include="Scripts\Migration\Registration.sql" />
+    <Content Include="Scripts\Migration\Screening.sql" />
+    <Content Include="Scripts\Migration\SexualHistory.sql" />
+    <Content Include="Scripts\Migration\SMSConsent.sql" />
+    <Content Include="Scripts\Migration\SupportGroup.sql" />
+    <Content Include="Scripts\Migration\TBICF.sql" />
+    <Content Include="Scripts\Migration\TBIPT.sql" />
+    <Content Include="Scripts\Migration\TransferIn.sql" />
+    <Content Include="Scripts\Migration\Vitals.sql" />
+    <Content Include="Scripts\Migration\WHOStaging.sql" />
+    <Content Include="Scripts\Testing\CE Visits.sql" />
+    <Content Include="Scripts\Testing\DoB.sql" />
+    <Content Include="Scripts\Testing\EnrollmentDate.sql" />
+    <Content Include="Scripts\Testing\EntryPoints.sql" />
+    <Content Include="Scripts\Testing\Gender.sql" />
+    <Content Include="Scripts\Testing\HeadCircumference.sql" />
+    <Content Include="Scripts\Testing\MaritalStatus.sql" />
+    <Content Include="Scripts\Testing\MobileNumbers.sql" />
+    <Content Include="Scripts\Testing\NationalId.sql" />
+    <Content Include="Scripts\Testing\OIs.sql" />
+    <Content Include="Scripts\Testing\PatientNames.sql" />
+    <Content Include="Scripts\Testing\PhysicalAddress.sql" />
+    <Content Include="Scripts\Testing\PregnancyStatus.sql" />
+    <Content Include="Scripts\Testing\ScheduledVisits.sql" />
+    <Content Include="Scripts\Testing\Temperature.sql" />
+    <Content Include="Scripts\Testing\Village.sql" />
+    <Content Include="Scripts\Testing\WHOStaging.sql" />
+    <Content Include="Scripts\VersionUpdate\v202\001_GetDrugBatchesInSelectedStore.sql" />
+    <Content Include="Scripts\VersionUpdate\v202\002_GetRecentAdjustments.sql" />
+    <Content Include="Scripts\VersionUpdate\v202\003_GetRecentIssues.sql" />
+    <Content Include="Scripts\VersionUpdate\v202\004_GetRecentReceipts.sql" />
+    <Content Include="Scripts\VersionUpdate\v202\005_GetStockSummary.sql" />
+    <Content Include="Scripts\VersionUpdate\v202\006_UnrestrictClinicID.sql" />
+    <Content Include="Scripts\VersionUpdate\v202\007_GetDrugBatchesInDispensingStore.sql" />
+    <Content Include="Scripts\VersionUpdate\v202\008_SaveDrugReceipt.sql" />
+    <Content Include="Scripts\VersionUpdate\v202\009_SaveDrugIssue.sql" />
+    <Content Include="Scripts\VersionUpdate\v202\010_SaveAdjustment.sql" />
+    <Content Include="Scripts\VersionUpdate\v203\001_GetRecentReceipts.sql" />
+    <Content Include="Scripts\VersionUpdate\v203\999_AppVersion.sql" />
+    <Content Include="Scripts\VersionUpdate\v204\001_GetRecentReceipts.sql" />
+    <Content Include="Scripts\VersionUpdate\v204\002_SaveDispense.sql" />
+    <Content Include="Scripts\VersionUpdate\v204\003_SaveDrugIssue.sql" />
+    <Content Include="Scripts\VersionUpdate\v204\004_TBDrugs.sql" />
+    <Content Include="Scripts\VersionUpdate\v204\005_GetStockSummary.sql" />
+    <Content Include="Scripts\VersionUpdate\v204\999_AppVersion.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\00_PatientTracing.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\01_TracingProcessOptionsLookup.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\02_MissedAppointmentActionTakenLookup.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\03_MissedAppointmentReasonsLookup.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\04_GetAppointments.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\05_GetUnscheduledVisits.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\06_GetMissedAppointments.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\07_GetPatientProfile.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\08_GetTracingHistory.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\09_GetTreatmentSupporter.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\10_SaveTracing.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\11_PatientTreatmentSupporter_Insert.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\12_MigrateTreatmentSupporters.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\13_IX_mst_Patient.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\14_GetTodaysChartData.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\15_GetLastCoupleOfDaysChartData.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\16_getPatientVitals.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\17_GetPreviousDispense.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\18_GetPharmacyQueue.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\19_GetPatientProfile.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\20_gcPatientView.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\21_PatientTreatmentTrackerView.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\22_MissedAppointmentChart.sql" />
+    <Content Include="Scripts\VersionUpdate\v205\999_AppVersion.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,14 +1,14 @@
 ﻿WITH MMAS as (
 SELECT a.Ptn_pk
 , CAST(c.VisitDate as DATE) VisitDate
-, a.ForgetMedicineSinceLastVisit ForgotMedicine
-, a.CarelessAboutTakingMedicine CarelessAboutMedicine
-, a.FeelWorseStopTakingMedicine FeelWorse 
-, a.FeelBetterStopTakingMedicine FeelBetter
+, ISNULL(a.ForgetMedicineSinceLastVisit,0) ForgotMedicine
+, ISNULL(a.CarelessAboutTakingMedicine,0) CarelessAboutMedicine
+, ISNULL(a.FeelWorseStopTakingMedicine,0) FeelWorse 
+, ISNULL(a.FeelBetterStopTakingMedicine,0) FeelBetter
 
-, a.TakeMedicineYesterday TakeMedicine
-, a.SymptomsUnderControl_StopTakingMedicine StopMedicine 
-, a.UnderPresureStickingYourTreatmentPlan UnderPressure
+, ISNULL(a.TakeMedicineYesterday,0) TakeMedicine
+, ISNULL(a.SymptomsUnderControl_StopTakingMedicine,0) StopMedicine 
+, ISNULL(a.UnderPresureStickingYourTreatmentPlan,0) UnderPressure
 , CASE b.Name 
 	WHEN 'Never / Rarely' THEN 0
 	WHEN 'Once in a while' THEN 0.25

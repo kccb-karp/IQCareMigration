@@ -17,7 +17,7 @@ WHERE VisitType = 0)
 , LineList AS (
 Select a.Ptn_Pk
 , a.VisitDate
-, CASE WHEN b.ptn_pk is null or a.CreateDate != b.CreateDate THEN 1
+, CASE WHEN b.ptn_pk is null or a.VisitDate != b.VisitDate THEN 1
 ELSE 0 END AS DoesNotMatch
 
 FROM V4Visits a LEFT JOIN V1Visit b

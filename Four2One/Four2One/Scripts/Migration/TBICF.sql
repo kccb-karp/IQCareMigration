@@ -124,6 +124,7 @@ insert into PatientIcf
  , a.OnAntiTbDrugs
  , a.OnIpt
  , a.EverBeenOnIpt
+ , NULL ContactWithTb
   from ICF a
 inner join Patient c on a.Ptn_pk = c.ptn_pk
 inner join PatientMasterVisit d on c.id = d.PatientId

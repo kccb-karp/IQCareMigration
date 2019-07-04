@@ -38,3 +38,27 @@ inner join PatientMasterVisit d
 	and d.VisitType = 0
 left join PatientAppointment e ON d.Id = e.PatientMasterVisitId
 where e.PatientMasterVisitId IS NULL;
+
+/*Update Status*/
+/*Met*/
+UPDATE PatientAppointment SET StatusId = 
+
+(select LookupItemId from LookupMasterItem where DisplayName = 'Met' 
+	and LookupMasterId = (select Id from LookupMaster where Name = 'AppointmentStatus'))
+, StatusDate = GETDATE()
+WHERE Id IN
+	(select Id FROM (
+	select a.Id
+	, a.PatientId
+	, cast(a.AppointmentDate as date) AppointmentDate
+	, b.VisitDate from PatientAppointment a 
+	inner join (select distinct PatientId, Cast(EncounterStartTime as date) VisitDate 
+	from PatientEncounter) b on a.PatientId = B.PatientId And CAST(a.AppointmentDate as date) = b.VisitDate) a) ;
+
+/*Missed*/
+UPDATE PatientAppointment 
+SET StatusId = (select LookupItemId from LookupMasterItem where DisplayName = 'Missed' 
+	and LookupMasterId = (select Id from LookupMaster where Name = 'AppointmentStatus'))
+where AppointmentDate < GETDATE()
+AND StatusId <> (select LookupItemId from LookupMasterItem where DisplayName = 'Met' 
+	and LookupMasterId = (select Id from LookupMaster where Name = 'AppointmentStatus'));

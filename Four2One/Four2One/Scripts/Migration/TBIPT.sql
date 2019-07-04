@@ -1,74 +1,16 @@
-﻿/*
+﻿
+WITH IPTStart as (select a.Ptn_Pk as PatientPk,CASE WHEN  CONVERT(date,a.INHStartDate) = CONVERT(date, '1900-01-01 00:00:00.000') then cc.VisitDate 
+else a.INHStartDate end  as IPTStartDate,a.INHEndDate,cc.VisitDate,b.VisitDate as V4Visit from dtl_TBScreening a
+inner join mst_Decode c on c.ID=a.IPT
+Inner Join ord_visit b On a.Visit_Pk = b.visit_id   
+inner join CCCEncountersBeingMigrated cc on a.Ptn_pk = cc.Ptn_pk  and CAST(cc.VisitDate as date)=CAST(b.VisitDate as date)
+where c.Name='Start IPT ')
 
-TODO
 
-select Ptn_pk
-, YellowEyes
-, YellowUrine
-, NumbnessAdult
-, NumbnessPead
-, TenderAbdomen
-, PainAbdomen
-, IPTStartDate from DTL_FBCUSTOMFIELD_Intensive_Case_Finding
-WHERE IPTStartDate is not null
-*/
 
-WITH IPTStart AS (
-Select a.Ptn_pk PatientPK
-, Min(Coalesce(a.DispensedByDate, b.visitdate)) IPTStartDate
-, MAX(Coalesce(a.DispensedByDate, b.visitdate)) LastIPTDispense
-, Max(a.DrugName) Medication    
-From VW_PatientPharmacy a      
-Inner Join ord_visit b On a.VisitID = b.visit_id   
-inner join CCCPatientsBeingMigrated c on a.Ptn_pk = c.Ptn_pk    
-Where a.DrugName LIKE 'Isoniazid%' Group By a.Ptn_pk)
 
-, Discountinued AS (
-select a.Ptn_Pk PatientPK
-, MAX(c.Name) DiscontinuationReason
-, MAX(COALESCE(CASE WHEN YEAR(INHEndDate) < 2000 THEN NULL ELSE a.INHEndDate END, b.VisitDate)) INHDiscontinuedDate
-from dtl_TBScreening a 
-INNER JOIN ord_Visit b ON a.Visit_Pk = b.Visit_Id
-INNER JOIN mst_Decode c ON a.IPTDiscontinued = c.ID
-WHERE b.DeleteFlag = 0 OR b.DeleteFlag IS NULL
-GROUP BY a.Ptn_Pk)
 
-, Outcomes AS  
-(Select a.PatientPK  
-, CASE WHEN DATEDIFF(MM, a.IPTStartDate, c.LastVisit) > 6 	
-	AND d.PatientPK IS NULL	
-	THEN 'TC' 
-	WHEN d.PatientPK IS NOT NULL THEN 'Discontinued'
-	ELSE NULL END AS IPTOutcome
-, CASE WHEN d.PatientPK IS NOT NULL THEN d.DiscontinuationReason ELSE NULL END AS ReasonForDiscountinuation  
-, CASE WHEN DATEDIFF(MM, a.IPTStartDate, c.LastVisit) > 6 	
-	AND d.PatientPK IS NULL
-	THEN DATEADD(MM, 6, a.IPTStartDate) 
-	WHEN d.PatientPK IS NOT NULL THEN d.INHDiscontinuedDate
-	ELSE NULL END AS DateOfOutcome  
-FROM IPTStart a INNER JOIN CCCPatientsBeingMigrated b ON a.PatientPK = b.Ptn_pk  
-INNER JOIN (Select Ptn_Pk, max(visitdate) LastVisit FROM CCCEncountersBeingMigrated GROUP BY Ptn_Pk) c
-on a.patientpk = c.Ptn_Pk
-LEFT JOIN Discountinued d ON a.PatientPK = d.PatientPK
-) 
 
-, tmp_IPT AS (
-SELECT a.PatientPK
-, CAST(a.IPTStartDate as DATE) IPTStartDate
-, CAST(a.LastIPTDispense as DATE) LastIPTDispense
-, DATEDIFF(mm, a.IPTStartDate, a.LastIPTDispense) MonthsOnIPT 
-, a.Medication
-, b.IPTOutcome
-, CAST(b.DateOfOutcome as DATE) DateOfOutcome
-, b.ReasonForDiscountinuation
-FROM 
-IPTStart a LEFT JOIN Outcomes b ON a.PatientPK = b.PatientPK)
-
-, StartIPT AS (
-Select a.PatientPK
-, a.IPTStartDate
-  FROM tmp_IPT a inner join CCCEncountersBeingMigrated b ON a.PatientPK = b.Ptn_Pk
-AND a.IPTStartDate = b.VisitDate)
 
 
 insert into PatientIptWorkup
@@ -97,7 +39,7 @@ Select b.Id PatientId
 , c.CreateDate
 , 1 StartIpt
 , a.IPTStartDate
-FROM StartIPT a
+FROM IPTStart a
 INNER JOIN Patient b on a.PatientPK = b.ptn_pk
 inner join PatientMasterVisit c on b.id = c.PatientId
 and cast(a.IPTStartDate as date) = cast(c.visitdate as date)
@@ -112,4 +54,71 @@ SET EverBeenOnIpt = 1
 WHERE PatientMasterVisitId IN 
 (select PatientMasterVisitId
 FROM PatientIptWorkup WHERE StartIpt = 1)
+
+
+go
+
+
+with IPTComplete as( select a.Ptn_Pk,pt.Id as PatientId,pmv.Id as PatientMasterVisitId,a.INHStartDate,a.INHEndDate,pmv.VisitDate,b.VisitDate as V4Visit,a.CreateDate from dtl_TBScreening a
+inner join mst_Decode c on c.ID=a.IPT
+INNER JOIN Patient pt on a.Ptn_pk = pt.ptn_pk
+Inner Join ord_visit b On a.Visit_Pk = b.visit_id 
+inner join PatientMasterVisit pmv on pmv.PatientId = pt.Id and CAST(pmv.VisitDate as date)=CAST(b.VisitDate as date)  
+--inner join CCCEncountersBeingMigrated cc on a.Ptn_pk = cc.Ptn_pk  and CAST(cc.VisitDate as date)=CAST(b.VisitDate as date)
+where c.Name='Completed IPT'
+),
+IPTDiscontinued as(
+select a.Ptn_Pk,pt.Id as PatientId,pmv.Id as PatientMasterVisitId,CASE WHEN  CONVERT(date,a.INHStartDate) = CONVERT(date, '1900-01-01 00:00:00.000') then cc.VisitDate else a.INHStartDate end  as IPTStartDate,a.INHEndDate,cc.VisitDate,a.CreateDate 
+,d.[Name] as ReasonofDiscontinued,CASE when d.ID is null then a.OtherReasonDeclinedIPT else d.[Name] end as [ReasonofDiscontinuation]
+,b.VisitDate as V4Visit from dtl_TBScreening a
+INNER JOIN Patient pt on a.Ptn_pk = pt.ptn_pk
+inner join PatientMasterVisit pmv on pmv.PatientId = pt.Id
+inner join mst_Decode c on c.ID=a.IPT
+Inner Join ord_visit b On a.Visit_Pk = b.visit_id   
+inner join CCCEncountersBeingMigrated cc on a.Ptn_pk = cc.Ptn_pk  and CAST(cc.VisitDate as date)=CAST(b.VisitDate as date)
+left join mst_Decode  d on d.ID=a.IPTDiscontinued
+where c.Name='Discontinued'
+)
+
+INSERT INTO  PatientIptOutcome (PatientMasterVisitId,PatientId,IptEvent,ReasonForDiscontinuation,DeleteFlag,CreatedBy,CreateDate) 
+select c.PatientMasterVisitId,c.PatientId,(Select itemId from LookupItemView where ItemDisplayName='Completed' and MasterName='IptOutcome'),'' as ReasonForDiscontinuation,'0' as DeleteFlag,'1' as Createdby,
+c.CreateDate
+ from IPTComplete c
+ union
+ select d.PatientMasterVisitId,d.PatientId,((Select itemId from LookupItemView where ItemDisplayName='Discontinued' and MasterName='IptOutcome')),d.[ReasonofDiscontinuation],'0' as DeleteFlag,'1' as Createdby, 
+ d.CreateDate
+  from IPTDiscontinued d
+
+UPDATE PatientIcf
+SET EverBeenOnIpt = 1
+WHERE PatientMasterVisitId IN 
+(select PatientMasterVisitId
+FROM PatientIptWorkup WHERE StartIpt = 1)
 GO
+
+GO
+
+
+
+WITH IPTContinue as (
+select a.Ptn_Pk,pmv.Id as PatientMasterVisitId,pt.Id as PatientId,v.[Weight] ,pmv.VisitDate  as PatientVisitDate ,d.Name,CASE WHEN  CONVERT(date,a.INHStartDate) = CONVERT(date, '1900-01-01 00:00:00.000') then b.VisitDate else a.INHStartDate end  as IPTStartDate,a.INHEndDate,b.VisitDate as V4Visit,a.CreateDate,
+CASE WHEN d.Name='Bad >9 Missed Doses' then 'Bad()Missed9'
+WHEN d.Name='Fair 4 -8 Missed Doses' then 'Fair(Missed4-8/month) '
+WHEN d.Name='Good <3 Missed Doses' then 'Good(Missed<3/month)'
+end as Adherence
+ from dtl_TBScreening a
+inner join mst_Decode c on c.ID=a.IPT
+INNER JOIN Patient pt on a.Ptn_pk = pt.ptn_pk
+
+Inner Join ord_visit b On a.Visit_Pk = b.visit_id
+inner join PatientMasterVisit pmv on pmv.PatientId = pt.Id and CAST(pmv.VisitDate as date)=CAST(b.VisitDate as date)
+inner join dtl_PatientVitals v on v.Visit_pk=a.Visit_Pk
+inner join mst_Decode d on d.ID=a.IPTAdherence
+where c.[Name]='Continue IPT'  and pmv.VisitType = 0) 
+
+
+INSERT INTO PatientIpt(PatientMasterVisitId,PatientId,IptDueDate,IptDateCollected,Weight,AdheranceMeasurement,DeleteFlag,CreatedBy,CreateDate)
+select c.PatientMasterVisitId,c.PatientId,c.PatientVisitDate as IPTDueDate,c.PatientVisitDate as IPTDateCollected,c.Weight,(select ItemId from LookupItemView lv where lv.ItemName =c.Adherence) as AdheranceMeasurement,0 as DeleteFlag,'1', c.CreateDate from IPTContinue c 
+
+
+

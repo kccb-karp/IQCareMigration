@@ -266,7 +266,7 @@ SELECT c.Id PatientId
 , d.Id PatientEnrollmentId
 , 1
 , CAST(c.FacilityId as VARCHAR(1000)) 
-+ '-' 
+--+ '-' 
 + COALESCE(CAST(b.PatientEnrollmentID as VARCHAR(1000)), CAST(b.PatientClinicID as VARCHAR(1000))) IdentifierValue
 , 0
 , a.CreatedBy
@@ -274,7 +274,10 @@ SELECT c.Id PatientId
 , 1
  from Person a INNER JOIN 
 (select Ptn_Pk 
-, case when ISNUMERIC(PatientEnrollmentId) = 1 and len(PatientEnrollmentId) = 2
+, case
+ when ISNUMERIC(PatientEnrollmentId) = 1 and len(PatientEnrollmentId) = 1
+ then '0000' + PatientEnrollmentId
+when ISNUMERIC(PatientEnrollmentId) = 1 and len(PatientEnrollmentId) = 2
 then '000' + PatientEnrollmentId
 when ISNUMERIC(PatientEnrollmentId) = 1 and len(PatientEnrollmentId) = 3
 then '00' + PatientEnrollmentId

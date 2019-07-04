@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Four2One", "Four2One\Four2One.csproj", "{B69AD829-197D-4BC0-A031-0D90B08CAFCC}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "KarpFour2OneSetup", "KarpFour2OneSetup\KarpFour2OneSetup.vdproj", "{4D3EB097-84C1-4EC8-8BF7-4F498696032D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{B69AD829-197D-4BC0-A031-0D90B08CAFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B69AD829-197D-4BC0-A031-0D90B08CAFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B69AD829-197D-4BC0-A031-0D90B08CAFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3EB097-84C1-4EC8-8BF7-4F498696032D}.Debug|Any CPU.ActiveCfg = Debug
+		{4D3EB097-84C1-4EC8-8BF7-4F498696032D}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

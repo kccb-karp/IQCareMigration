@@ -34,7 +34,7 @@
 					THEN 112 ELSE 111 END) AS VisitBy
 			, 0 VisitType
 			, 2 Status
-			, MIN(CAST(a.CreateDate as date)) CreateDate
+			, MIN(ISNULL(CAST(a.CreateDate as date),a.VisitDate)) CreateDate
 			, 0 DeleteFlag
 			, 1 CreatedBy
 
@@ -50,7 +50,7 @@
 			LEFT JOIN dtl_PatientARTEncounter k ON a.Visit_Id = k.Visit_Id AND a.Ptn_Pk = k.Ptn_Pk
 			Where 
 			(a.DeleteFlag = 0 OR a.DeleteFlag iS NULL)
-			AND a.VisitType NOT IN (0,4,5,6,12,18,19)
+			AND a.VisitType NOT IN (0,5,12,18,19)
 			AND b.VisitName NOT IN 
 			('Contact Tracking Form'
 			,'Councelling'

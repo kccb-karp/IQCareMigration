@@ -1,10 +1,7 @@
 ﻿If Not Exists (Select * From sys.columns Where Name = N'PatientClassification' And Object_ID = Object_id(N'Ord_Visit'))    
 Begin
 	ALTER TABLE Ord_Visit
-	ADD PatientClassification int,
-	IsEnrolDifferenciatedCare bit,
-	ARTRefillModel int;
-
+	ADD PatientClassification int;
 End
 Go
 

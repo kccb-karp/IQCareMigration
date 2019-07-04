@@ -1,0 +1,1 @@
+﻿update Mst_Batch set DeleteFlag = 0 where DeleteFlag is null;
